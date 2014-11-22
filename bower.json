@@ -1,0 +1,31 @@
+{
+  "name": "console",
+  "version": "0.0.0",
+  "authors": [
+    "donghui <donghui@email.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.3.1",
+    "marionette": "~2.2.2",
+    "backbone-forms": "~0.14.0",
+    "bootstrap-dialog": "~1.33.5",
+    "underscore": "~1.7.0",
+    "bootstrap3-dialog": "~1.33.5",
+    "bootstrap.growl": "~2.0.1",
+    "animate.css": "~3.2.0"
+  },
+  "devDependencies": {
+    "chai": "~1.10.0",
+    "mocha": "~2.0.1"
+  }
+}
