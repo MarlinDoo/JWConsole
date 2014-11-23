@@ -1,5 +1,5 @@
 Juggler.addInitializer(function(){
-	// Spms.start();
+	JWC.start();
 });
 
 $(function  (argument) {

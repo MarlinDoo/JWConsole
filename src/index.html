@@ -16,11 +16,11 @@
     <!-- endbuild -->
 
     <!-- build:css styles/juggler.min.css -->
-    <link rel="stylesheet" href="styles/juggler/juggler.css">
+<!--     <link rel="stylesheet" href="styles/juggler/juggler.css"> -->
     <!-- endbuild -->
 
     <!-- build:css styles/spms.min.css -->
-    <link rel="stylesheet" href="styles/spms/spms.css">
+<!--     <link rel="stylesheet" href="styles/spms/spms.css"> -->
     <!-- endbuild -->
 
     <!-- build:css styles/main.min.css -->
@@ -28,12 +28,11 @@
     <!-- endbuild -->
   </head>
   <body>
-
-    <nav id="nav"></nav>
+    <aside class="bg-danger" id="nav"></aside>
 
     <header id="header"></header>
 
-    <main id="main" class="main"><h1>Hello World 1! </h1></main>
+    <main id="main" class="main"></main>
 
     <footer id="footer"></footer>
 
@@ -53,7 +52,7 @@
     <script src="../bower_components/backbone.wreqr/lib/backbone.wreqr.js"></script>
     <script src="../bower_components/marionette/lib/core/backbone.marionette.js"></script>
     <script src="../bower_components/backbone-forms/distribution/backbone-forms.js"></script>
-    <script src="../bower_components/backbone.localstorage/backbone.localStorage.js"></script>
+    <script src="../bower_components/backbone-localstorage/backbone-localstorage.js"></script>
     <!-- endbower -->
     <script src="../bower_components/backbone-pageable/lib/backbone-pageable.js"></script>
     <script src="../bower_components/backbone-forms/distribution/templates/bootstrap3.js"></script>
@@ -61,13 +60,13 @@
 
 
     <!-- build:js scripts/juggler.min.js -->
-    <script src="scripts/juggler/juggler.js"></script>
+    <script src="scripts/juggler.js"></script>
     <!-- endbuild -->
 
     <!-- build:js scripts/spms.min.js -->
-    <script src="scripts/spms/spms.js"></script>
-    <script src="scripts/apps/nav.js"></script>
+    <script src="scripts/jwconsole.js"></script>
     <script src="scripts/apps/header.js"></script>
+    <script src="scripts/apps/blog.js"></script>
 
     <!-- endbuild -->
 
