@@ -12,10 +12,10 @@ JWC.module('HeaderApp', function(HeaderApp, JWC, Backbone, Marionette, $, _) {
             <h6>孟影（抹茶）</h6>\
           </div>\
           <ul class="nav nav-pills nav-stacked">\
-            <li class="active"><a href="#blogs">博客</a></li>\
+            <li><a href="#blogs">博客</a></li>\
             <li><a href="#campaign">活动</a></li>\
             <li><a href="#statistics">统计数据</a></li>\
-            <li><a href="#enterprises">企业管理</a></li>\
+            <li class="active"><a href="#enterprises">企业管理</a></li>\
           </ul>\
         </section>\
         <div class="bg-danger wrapper">reminder region</div>\

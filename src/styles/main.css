@@ -1,0 +1,7 @@
+#nav{position: fixed; top: 0;left: 0; bottom: 0; width:160px;}
+#nav .navbar-brand{float:none;}
+
+.nav-user{text-align: center;}
+#nav footer{position: absolute; bottom: 50px; width: 100%;text-align: center;}
+
+#main{margin-left: 160px;}
