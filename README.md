@@ -10,4 +10,4 @@ First make sure you have Node, Npm, Bower and Gulp installed.
 
 * npm install
 * bower install
-* gulp serve
+* gulp serve 
